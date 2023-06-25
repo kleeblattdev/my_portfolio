@@ -1,0 +1,19 @@
+#github, #linkedIn,#mail{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#github{
+    background-image: url(../images/github.svg);
+}
+
+#linkedIn{
+    background-image: url(../images/linkedIn.svg);
+}
+
+#mail{
+    background-image: url(../images/gmail.svg);
+}

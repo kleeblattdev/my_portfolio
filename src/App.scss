@@ -1,0 +1,17 @@
+@import './fonts.scss';
+@import './variables.scss';
+
+body{
+    color: $white;
+    background-color: $black;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace;
+}
+
+a{
+    color: $white;
+    text-decoration: none;
+}
