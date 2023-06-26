@@ -9,13 +9,28 @@ body{
 
 h1{
     font-family: 'Inconsolata', monospace;
+    font-size: 8rem;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 3.5rem;
+}
+
+
 a{
+    font-size: 1.5rem;
     color: $white;
     text-decoration: none;
 }
 
 span{
     color: $orange;
+}
+
+main{
+    margin: 20px;
 }

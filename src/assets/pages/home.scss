@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+main{
+    background-position: center left 15rem;
+    background-repeat: no-repeat;
+    background-image: url('../images/dev.svg');
+    background-size: 60%;
+    padding:  5rem;
+    h1, h3{
+        padding-left: 2rem;
+    }
+    h1{
+        margin-bottom: 2rem;
+        overflow: hidden;
+        border-right: .15em solid $orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .11em;
+        animation: typing 3.5s steps(50, end), blink-caret .75s step-end infinite;
+        @keyframes typing{
+            from{
+                width: 0
+            }
+            to{
+                width: 100%;
+            }
+        }
+        @keyframes blink-caret{
+            0%{
+               border-color: transparent;
+            }
+            50%{
+                border-color: $orange;
+            }
+            100%{
+                border-color: transparent;
+            }
+        }
+    }
+    h3{
+        margin-top: 2rem;
+        line-height: 5rem;
+    }
+}
