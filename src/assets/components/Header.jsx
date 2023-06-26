@@ -5,13 +5,14 @@ import './header.scss';
 const Header = () =>{
     return(
     <header>
-        <SocialMedia/>
-        <h2>Karin<span>.</span>Lee
-        </h2>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/about'>About Me</NavLink>
-        <NavLink to='/projects'>Projects</NavLink>
+        <h2>Karin<span>.</span>Lee</h2>
+        <nav>
+        <NavLink to='/'>Home <span></span></NavLink>
+        <NavLink to='/about'>About Me <span></span></NavLink>
+        <NavLink to='/projects'>Projects <span></span></NavLink>
         <NavLink to='contact'>Contact</NavLink>
+        </nav>
+        <SocialMedia/>
     </header>)
     };
     export default Header;
