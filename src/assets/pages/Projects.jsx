@@ -1,6 +1,6 @@
 const Projects = () =>{
     return(
-    <main>
+    <main className="projects">
         <h1>Hello Projects!</h1>
     </main>)
     };

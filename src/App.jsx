@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //component import
 import Header from './assets/components/Header';
 //pages import
-import Home from './assets/pages/home';
-import About from './assets/pages/about';
-import Projects from './assets/pages/projects';
-import Contact from './assets/pages/contact';
+import Home from './assets/pages/Home.jsx';
+import About from './assets/pages/About.jsx';
+import Projects from './assets/pages/Projects.jsx';
+import Contact from './assets/pages/Contact.jsx';
 //SCSS import
 import './App.scss'
 

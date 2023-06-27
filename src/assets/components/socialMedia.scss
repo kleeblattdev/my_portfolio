@@ -4,6 +4,12 @@
     width: 40px;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0 10px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    &:hover{
+        opacity: 1;
+    }
 }
 
 #github{

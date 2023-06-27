@@ -4,20 +4,30 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 20px 20px 75px;
     nav a{
-        margin-right: 20px;
-        span{
-            display: inline-block;
-            width: 1px;
-            height: 12px;
-            background-color: $grey;
-            margin-left: 15px;
-        }
-    }
-    .active{
-        text-decoration: underline;
-        text-underline-offset: 5px;
+        display: inline-block;
+        position: relative;
+        padding: 15px 20px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin: 0 15px;
+        &:after {    
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #fff;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+          }
+        &:hover:after { 
+            width: 100%; 
+            left: 0; 
+          }
     }
 }
 
